@@ -60,8 +60,14 @@ einholen.
 
 ### Datenerfassung auf dieser Website
 
-Bei Ihrem Besuch unserer Internetseite unter **dleidert.dev** (oder einer
-verwandten Domain) gilt:
+Bei Ihrem Besuch unserer Internetseite unter
+
+  * http(s)://dleidert.dev
+  * http(s)://dleidert.de
+  * http(s)://dleidert.eu
+  * http(s)://dleidert.support
+
+gilt:
 
   * Eine Registrierung ist nicht notwendig.
   * Es wird keine Statistik, Analyse und Überwachung von Besucherströmen erhoben.
@@ -69,9 +75,6 @@ verwandten Domain) gilt:
   * Es gibt keine Einbindung von sozialen Netzwerken.
   * Es gibt keine Einbindung von Zahlungsdienstleistern.
   * Es werden keine Cookies erstellt oder verarbeitet.
-
-Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung
-eine SSL- bzw. TLS- Verschlüsselung.
 
 Bei Ihrem Besuch werden in den Protokolldateien des Web-Servers folgende Daten
 erhoben, die zur Sicherstellung des technischen Betriebes und zur Erfassung und
@@ -81,13 +84,22 @@ Abwehr von Angriffsversuchen dienen:
   * Client-Betriebssystem,
   * angefragte URL,
   * angefragte Seite bzw. Datei,
-  * Ingternetseite, von der der Zugriff auf unsere Internetseite erfolgte (Referrer),
+  * Internetseite, von der der Zugriff auf unsere Internetseite erfolgte (Referrer),
   * Zeitstempel und
   * Client-IP-Adresse.
 
+Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung
+eine SSL- bzw. TLS- Verschlüsselung.
+
 Verantwortlich für die Erfassung dieser Daten ist der im
-[Impressum](#impressum) genannte Betreiber der Webseite. Da finden Sie auch die
-Kontaktdaten.
+[Impressum](#impressum) genannte Betreiber dieser Webseite. Da finden Sie auch
+die Kontaktdaten.
+
+Externe Links haben wir bei der Erstellung unserer Internetseiten überprüft.
+Wir können jedoch keine Verantwortung für den dort dargestellten Inhalt oder
+zwischenzeitliche Änderungen übernehmen. Wenn Sie einem Link folgen, verlassen
+Sie unsere Internetpräsenz und damit den Geltungsbereich dieser
+Datenschutzerklärung.
 
 ### Datenerfassung für Geschäftsbeziehungen
 
