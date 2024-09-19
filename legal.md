@@ -1,37 +1,161 @@
 ---
 layout: page
-title: Privacy Policy
+title: Impressum
 ---
+
 <div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
+        <h2 class="section-heading text-uppercase" id="impressum">Impressum</h2>
 </div>
 
-This Privacy Policy describes how your personal information is collected, used, and shared when you visit {{ site.title }} (the “Site”).
+Daniel Leidert  
+Freelancer IT Support und Systemadministration (Einzelunternehmer)  
+Nordwalder Straße 19  
+48282 Emsdetten  
 
-**PERSONAL INFORMATION WE COLLECT**
+### Kontakt
 
-{% if site.analytics.google %}
+Telefon: <a href="tel:0049-176-62015924">+49 (0) 176 62015924</a>  
+E-Mail: <a href="mailto:daniel.leidert@dleidert.dev">daniel.leidert@dleidert.dev</a>
 
-Automatically Collected (Google Analytics):
+### Umsatzsteuer-ID
 
-When you visit the Site, we automatically receive information about your device from your browser, such as your IP address. As you browse the Site, we also collect information about how you interact with the Site. We refer to this automatically-collected information as “Device Information”.
+Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
 
-We collect Device Information using cookies. “Cookies” are data files that are placed on your device. For more information about cookies and how to disable them, visit http://www.allaboutcookies.org.
+DE340976095
 
-We do this using Google Analytics: <https://www.google.com/intl/en/policies/privacy/>.
+### Verbraucherstreitbeilegung/Universalschlichtungsstelle
 
-You can opt-out of Google Analytics here: <https://tools.google.com/dlpage/gaoptout>.
+Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
+Verbraucherschlichtungsstelle teilzunehmen.  
 
-{% else %}
+<div class="col-lg-12 text-center">
+	<br/><br/>
+	<h2 class="section-heading text-uppercase" id="dsgvo">Datenschutz auf einen Blick</h2>
+</div>
 
-We do not collect any data about you or use any cookies.
+Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren
+personenbezogenen Daten passiert, wenn Sie diese Website besuchen oder unsere
+Dienste in Anspruch nehmen.
 
-{% endif %}
+Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert
+werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie
+der unter diesem Text aufgeführten Datenschutzerklärung.
 
-**CHANGES**
+### Wie erfassen wir Ihre Daten?
 
-We may update this privacy policy from time to time for personal, operational, legal, or regulatory reasons.
+Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen.
+Hierbei kann es sich z. B. um Daten handeln, die Sie uns via E-Mail oder
+Telefon mitgeteilt haben. Bitte stellen Sie uns nur notwendige personenbezogene
+Daten zur Verfügung. Wenn möglich, benutzen Sie dafür verschlüsselte
+Kommunikation nach dem GPG/Mime-Standard. Bei Fragen helfen wir gerne dabei.
 
-**CONTACT US**
+Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der
+Website durch unsere IT- Systeme erfasst. Das sind vor allem technische Daten
+(z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die
+Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.i
 
-For more information about our privacy practices or if you have questions, please contact us by email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+Ihre Daten werden nicht an Dritte weitergegeben. Wenn eine Weitergabe zur
+Auftragserfüllung dennoch notwendig ist, werden wir vorher Ihre Genehmigung
+einholen.
+
+### Datenerfassung auf dieser Website
+
+Bei Ihrem Besuch unserer Internetseite unter **dleidert.dev** (oder einer
+verwandten Domain) gilt:
+
+  * Eine Registrierung ist nicht notwendig.
+  * Es wird keine Statistik, Analyse und Überwachung von Besucherströmen erhoben.
+  * Es gibt keine Einbindung von Werbedienstleistern.
+  * Es gibt keine Einbindung von sozialen Netzwerken.
+  * Es gibt keine Einbindung von Zahlungsdienstleistern.
+  * Es werden keine Cookies erstellt oder verarbeitet.
+
+Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung
+eine SSL- bzw. TLS- Verschlüsselung.
+
+Bei Ihrem Besuch werden in den Protokolldateien des Web-Servers folgende Daten
+erhoben, die zur Sicherstellung des technischen Betriebes und zur Erfassung und
+Abwehr von Angriffsversuchen dienen:
+
+  * Browsertyp und -Version,
+  * Client-Betriebssystem,
+  * angefragte URL,
+  * angefragte Seite bzw. Datei,
+  * Ingternetseite, von der der Zugriff auf unsere Internetseite erfolgte (Referrer),
+  * Zeitstempel und
+  * Client-IP-Adresse.
+
+Verantwortlich für die Erfassung dieser Daten ist der im
+[Impressum](#impressum) genannte Betreiber der Webseite. Da finden Sie auch die
+Kontaktdaten.
+
+### Datenerfassung für Geschäftsbeziehungen
+
+Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage
+inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage)
+zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet.
+Unsere Mail-Systeme verwenden SSL/TLS-Transport-Verschlüsselung, wenn die
+Gegenstelle dies unterstützt.
+
+Für eine Geschäftsbeziehung mit Ihnen erheben wir die folgenden
+personenbezogenen Daten und Kommunikationsdaten:
+
+  * Name der Firma
+  * Name der/des Ansprechpartners, Vertragspartners oder Rechnungsempfängers
+  * Anschrift der Firma
+  * Anschrift der/des Ansprechpartners, Vertragspartners oder Rechnungsempfängers
+  * E-Mail-Adresse
+  * Telefonnummer
+  * Umsatzsteuer-ID des Auftraggebers/Rechnungsempfängers
+
+Bei der Ausführung von Aufträgen werden in der Regel zudem die Zugangsdaten zum
+jeweiligen Auftragsgegenstand erhoben und bei langfristigen Aufträgen auch
+sicher gespeichert.
+
+Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer
+genannt wurde, verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck
+für die Datenverarbeitung entfällt. Wenn Sie ein berechtigtes Löschersuchen
+geltend machen oder eine Einwilligung zur Datenverarbeitung widerrufen, werden
+Ihre Daten gelöscht, sofern wir keine anderen rechtlich zulässigen Gründe für
+die Speicherung Ihrer personenbezogenen Daten haben (z. B. steuer- oder
+handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt die
+Löschung nach Fortfall dieser Gründe.
+
+Wir weisen vorsorglich darauf hin, dass wir verpflichtet sind, alle Rechnungen
+10 Jahre lang als buchhalterische Dokumente aufzubewahren. Diese Rechnungen
+enthalten u.U. auch personenbezogene Daten und (Kommunikationsdaten).
+
+### Datenerfassung für Backup-Dienste
+
+Bei der Nutzung unserer Backup-Dienste werden Zugangsdaten erhoben und
+gespeichert. Der Standort der verwendeten Server befindet sich in Deutschland.
+Wir informieren Sie im Detail, wenn Sie dieses Angebot nutzen möchten.
+
+### Welche Rechte haben Sie bezüglich Ihrer Daten?
+
+Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger
+und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben
+außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen.
+Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie
+diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das
+Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer
+personenbezogenen Daten zu verlangen.
+
+Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen
+Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen
+Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu.
+Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit
+an uns wenden. Das Beschwerderecht besteht unbeschadet anderweitiger
+verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.
+
+### Backups
+
+Die von Nutzern oder auf Kundenwunsch gelöschten Daten der primären Systeme
+können in den Backups eine längere Verweildauer haben. Aus technischen Gründen
+ist die Löschung einzelner Datensätze aus dem Backup nicht vorgesehen.
+
+Diese Datenschutzerklärung wurde für Zweck der DSGVO
+(Datenschutz-Grundverordnung) selbständig erstellt. Irrtümer sind vorbehalten.
+Anmerkungen bitte an an im [Impressum](#impressum) genannten Betreiber.
+
+Version: `2024-09-19`

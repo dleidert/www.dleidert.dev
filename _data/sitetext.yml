@@ -1,81 +1,141 @@
-#
-# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
-#
-# Configuration: Add to _config.yml
-# locale: "en-US"  [YOUR PREFERRED LOCALE]
-#
-# How to use:
-# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+# vim: set ts=2 sw=2 ai si et ft=yaml:
+---
 
-# English (default)
-# -----------------
-en: &DEFAULT_EN
+de: &DEFAULT_DE
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services"
+    title: Support rund um Debian und Ubuntu, Systemadministration, Backups, Netzwerke, DevOps, CI/CD und mehr
+    text: Ihr Debian und Ubuntu Spezialist
+    button: Kontakt
+    buttonlink: "#Kontakt"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
+    title: "Leistungen"
+    text:
+
+      Ich biete keine vorgefertigten Produkte an. Aufgrund meiner langjährigen
+      Erfahrung und meines Engagements im Bereich Debian- und Ubuntu-Linux und
+      Open Source habe ich mich auf Dienstleistungen und Support rund um Linux,
+      Netzwerke, Devops und CI/CD spezialisiert. Dies umfasst u.a.
+
+    section: Leistungen
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "System-Administration"
+        desc: "Server aufsetzen und pflegen, Probleme lösen, Software installieren und konfigurieren, Updates einspielen, Upgrades und Migrationen durchführen, etc."
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Netzwerke"
+        desc: "Netzwerke erstellen und konfigurieren, Netzwerkprobleme auswerten und lösen"
+        icon: fas fa-network-wired
+      - title: "Backups"
+        desc: "Backup-Strategien erstellen, Backups erstellen und hosten, Wiederherstellung aus Backups"
+        icon: fas fa-server
+      - title: "Härten"
+        desc: "Systeme härten und Sicherheitskonzepte erstellen"
+        icon: fas fa-lock
+      - title: "DEB"
+        desc: "Software-Installationspakete für Debian/Ubuntu erstellen"
+        icon: fas fa-box
+      - title: "Images"
+        desc: "Benutzerspezifische Installer und System-Images für Debian/Ubuntu-basierte Desktops, Server und VMs erstellen, Raspbian, Armbian und Derivate"
+        icon: fas fa-desktop
+      - title: "DevOps"
+        desc: "Support rund um DevOps und CI/CD für Softwareprojekte"
+        icon: fab fa-gitlab
+      - title: "Virtualisierung"
+        desc: "Virtualisierung für z.B. QEMU/KVM (`.img`), Vitualbox (`.vdi`), Hyper-V (`.vhdx`), Vmware (`.vmdk`) und Containerisierung von Anwendungen mit Docker"
+        icon: fas fa-layer-group
+      - title: "Automatisierung"
+        desc: "Automatisierung und Fernwartung mit Ansible"
+        icon: fa fa-cogs
+      - title: "Consulting"
+        desc: "Beratung rund um alle genannten Themen und Softwareentwicklung"
+        icon: fas fa-phone
+      - title: "Programmierung"
+        desc: "Klassische Programmierung und Skripting"
+        icon: fas fa-code
+      - title: "Übersetzung"
+        desc: "Übersetzung von Software und Dokumentation in Deutsch und Englisch"
+        icon: fas fa-language
 
   portfolio:
     title: "Portfolio"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
+    section: Portfolio
+    closebutton: "Schließen"
 
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
+    title: "Geschichte"
+    text: "Die Geschichte hinter dieser Firma"
+    section: Geschichte
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Die erste Debian-Installation"
+        year: "2002"
+        desc: "Die allererste Installation von Debian, damals noch Debian Woody 3.1. Aufgrund des veralteten Software-Standes folgte sehr schnell der Wechsel zu Debian Sid."
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Das erste Debian-Paket"
+        year: "August 2005"
+        desc: "2005 folgte die Übernahme des ersten Debian-Pakets als Maintainer. Bluefish, ein WYSIWYG HTML-Editor, den ich zu dieser Zeit für statische Webseiten und als Editor bevorzugt einsetzte, hatte keinen echten Maintainer mehr und ich übernahm und wurde auch Teil des Upstream-Projekts."
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "Debian Maintainer (DM)"
+        year: "2007"
+        desc: "Als Debian (Paket-)Maintainer durfte ich erstmals eigenständig und ohne Sponsor Debian-Pakete in das Debian-Archin hochladen."
         image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+        alt: Bildbeschreibung
+      - title: "Debian Developer (DD)"
+        year: "2012"
+        desc: "Zum Zeitpunkt meiner Ernennung zum Debian Developer war ich bereits offizieller Maintainer einer Reihe von Paketen und war insbesondere im Debian XML/SGML Team und bei GnuPG aktiv."
         image: assets/img/timeline/4.jpg
         alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+        #align: right
+      - title: "Nebenerwerb"
+        year: "März 2021"
+        desc: "Nach fast 20 Jahren Erfahrung mit Debian Linux bot ich erstmals meine Erfahrung und meine Dienste auf Fiverr an."
+        image: assets/img/timeline/4.jpg
+        alt:
+        #align: right
+      - title: "Wechsel in die IT im Hauptberuf"
+        year: "März 2022"
+        desc: "Zu Beginn des Jahres wechselte ich auch hauptberuflich in die IT zu einem renommierten Anbieter für hochsichere Hard- und Softwarelösungen. Dem Nebenerwerb blieb ich treu."
+        image: assets/img/timeline/4.jpg
+        alt:
+        #align: right
+      - title: "Selbständigkeit"
+        year: "September 2024"
+        desc: "Nach mehr als zweihundert erfolgreich abgeschlossenen Aufträgen auf Fiverr mit einer Gesamtbewertung von **4,9** Sternen bin ich seit Mitte September 2024 nun vollständig selbständig und freue mich auf die weiteren Entwicklungen."
+        image: assets/img/timeline/4.jpg
+        alt:
+        #align: right
+
+    end: "Werden Sie <br> Teil dieser <br> Geschichte!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
+    title: "Preise"
+    text: "Preise für Dienstleistungen wie Support und Backup"
+    section: Preise
+    body: >
+      Stammkunden mit mind. 5 Stunden Support pro Monat werden zu **90 Euro pro Stunde** (exkl. Umsatzsteuer) abgerechnet.  
+      Gründern biete ich bei Bedarf einen **Rabatt** von **10 Prozent** an.  
+      Alle anderen Kunden können Stundenpakete zu den folgenden Konditionen erwerben.
+      Die Abrechnung erfolgt in 15-Minuten-Slots.  
+      
+        2-Stunden Paket: **200 Euro** (100 Euro/Stunden exkl. Umsatzsteuer)  
+        5-Stunden Paket: **500 Euro** (100 Euro/Stunden exkl. Umsatzsteuer)  
+        10-Stunden Paket: **950 Euro** (95 Euro/Stunden exkl. Umsatzsteuer)  
+        20-Stunden Paket: **1900 Euro** (95 Euro/Stunden exkl. Umsatzsteuer)  
+        50-Stunden Paket: **4500 Euro** (90 Euro/Stunden exkl. Umsatzsteuer)  
+
+      Backups kosten pauschal und unabhängig von der Anzahl der zu sichernden
+      Server/Maschinen, der Sicherungshäufigkeit oder der Dauer der
+      Aufbewahrung **50&nbsp;Euro pro Monat** bei einer zu sichernden
+      Datenmenge bis zu 5&nbsp;TB. Der Preis erhöht sich um je 50&nbsp;Euro pro
+      Monat pro weitere 5&nbsp;TB. Die Sicherungen werden auf Wunsch
+      verschlüsselt aufbewahrt.
 
   clients:
-    section: clients
+    section: Kunden
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
@@ -93,230 +153,60 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
+    title: "Über uns"
+    text: "Unser Team besteht derzeit nur aus einer Person, dem Gründer der Firma. Sie werden also vom Chef betreut :)"
+    subtext: <a href="/assets/data/cv.de.pdf">Hier</a> können Sie meinen vollständigen Lebenslauf herunterladen.
+    section: Team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "Daniel Leidert"
+        role: "Freelancer, Debian/Ubuntu-Spezialist, Autor des <q>Debian Administrator Handbook</q>"
+        image: assets/img/team/me.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          - url: https://www.fiverr.com/dleidert
+            icon: fab fa-fonticons
+          - url: https://github.com/dleidert
+            icon: fab fa-brands fa-github
+          - url: https://gitlab.com/dleidert
+            icon: fab fa-brands fa-gitlab
+          #- url: https://salsa.debian.org/dleidert
+          #  icon: fab fa-brands fa-linux
+          - url: https://www.linkedin.com/in/daniel-leidert-8995952aa/
+            icon: fab fa-brands fa-linkedin
+          - url: https://www.xing.com/profile/Daniel_Leidert
+            icon: fab fa-brands fa-xing
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
-    section: contact
+    title: "Kontakt"
+    text: "Kontaktieren Sie uns."
+    section: Kontakt
     name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+    name-validation: "Geben Sie einen Namen ein."
+    email: "E-Mail*"
+    email-validation: "Geben Sie Ihre E-Mail-Addresse ein."
+    phone: "Telefonnummer*"
+    phone-validation: "Geben Sie Ihre Telefonnummer ein."
+    message: "Nachricht*"
+    message-validation: "Schreiben Sie etwas..."
+    subject: "Kontakt-Formular Bestätigung"
+    submit: "Nachricht absenden"
+    body: >
+    
+      Rufen Sie an unter [+49 (0) 176 62015924](tel:0049-176-62015924).  
+
+      Oder schreiben Sie uns eine E-Mail an
+      [daniel.leidert@dleidert.dev](email:daniel.leidert@dleidert.dev).
 
   footer:
-    legal: "Privacy Policy"
+    legal: "Datenschutzerklärung und Impressum"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
-en-US:
-  <<: *DEFAULT_EN
-en-CA:
-  <<: *DEFAULT_EN
-en-GB:
-  <<: *DEFAULT_EN
-en-AU:
-  <<: *DEFAULT_EN
+      - url: https://www.fiverr.com/dleidert
+        icon: fab fa-fonticons
+      - url: assets/keys/BEED4DED5544A4C03E283DC74BCD0567C296D05D.gpg
+        icon: fas fa-lock
+      - url: https://www.linkedin.com/in/daniel-leidert-8995952aa/
+        icon: fab fa-brands fa-linkedin
+      - url: https://www.xing.com/profile/Daniel_Leidert
+        icon: fab fa-brands fa-xing
 
-# Spanish
-# -------
-es: &DEFAULT_ES
-  header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
-    button: Ver más
-    buttonlink: "#servicios"
-
-  services:
-    title: "Servicios"
-    text: "Lorem ipsum"
-    section: servicios
-    list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
-
-  portfolio:
-    title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portafolio
-    closebutton: "Cerrar Proyecto"
-
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
-
-  about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: nosotros
-
-  clients:
-    section: clientes
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-
-  contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
-    section: contacto
-    name: "Nombre*"
-    name-validation: "Por favor ingrese su nombre."
-    email: "Correo Electrónico*"
-    email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
-
-  footer:
-    legal: "Política de Privacidad"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
+de-DE:
+  <<: *DEFAULT_DE

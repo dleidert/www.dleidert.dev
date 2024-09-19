@@ -1,8 +1,28 @@
 #Color Customization
-#highlight: "#54bfff"
+highlight: "#d70a53"
 #white: "#FF0000"
 #black: "#000"
 
 #Image Customization
-header-image: "../img/header-bg.jpg"
-contact-image: "../img/map-image.png"
+header-image: "/assets/img/laptop-1864126_1920.jpg"
+contact-image: "/assets/img/contact.png"
+#Font Awesome icon for portfolio grid when an item is hovered over
+#portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
+
+# Add custom fonts
+fonts_urls:
+    - "/assets/css/montserrat.css"
+    - "/assets/css/kaushan.css"
+    - "/assets/css/droid-serif.css"
+    - "/assets/css/roboto-slab.css"
+
+# Set custom fonts
+fonts:
+  - name: "Montserrat"
+    for: "heading"
+  - name: "Droid Serif"
+    for: "script"
+  - name: "Droid Serif"
+    for: "serif"
+  - name: "Roboto Slab"
+    for: "body"
