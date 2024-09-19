@@ -73,41 +73,38 @@ de: &DEFAULT_DE
         year: "2002"
         desc: "Die allererste Installation von Debian, damals noch Debian Woody 3.1. Aufgrund des veralteten Software-Standes folgte sehr schnell der Wechsel zu Debian Sid."
         image: assets/img/timeline/1.jpg
-        alt:
+        alt: Sky
       - title: "Das erste Debian-Paket"
         year: "August 2005"
         desc: "2005 folgte die Übernahme des ersten Debian-Pakets als Maintainer. Bluefish, ein WYSIWYG HTML-Editor, den ich zu dieser Zeit für statische Webseiten und als Editor bevorzugt einsetzte, hatte keinen echten Maintainer mehr und ich übernahm und wurde auch Teil des Upstream-Projekts."
         image: assets/img/timeline/2.jpg
-        alt:
+        alt: Airplane
       - title: "Debian Maintainer (DM)"
         year: "2007"
         desc: "Als Debian (Paket-)Maintainer durfte ich erstmals eigenständig und ohne Sponsor Debian-Pakete in das Debian-Archin hochladen."
         image: assets/img/timeline/3.jpg
-        alt: Bildbeschreibung
+        alt: Laptop
       - title: "Debian Developer (DD)"
         year: "2012"
         desc: "Zum Zeitpunkt meiner Ernennung zum Debian Developer war ich bereits offizieller Maintainer einer Reihe von Paketen und war insbesondere im Debian XML/SGML Team und bei GnuPG aktiv."
-        image: assets/img/timeline/4.jpg
-        alt:
+        image: assets/img/timeline/package.jpg
+        alt: Package
         #align: right
       - title: "Nebenerwerb"
         year: "März 2021"
         desc: "Nach fast 20 Jahren Erfahrung mit Debian Linux bot ich erstmals meine Erfahrung und meine Dienste auf Fiverr an."
         image: assets/img/timeline/4.jpg
-        alt:
-        #align: right
+        alt: Mountains
       - title: "Wechsel in die IT im Hauptberuf"
         year: "März 2022"
         desc: "Zu Beginn des Jahres wechselte ich auch hauptberuflich in die IT zu einem renommierten Anbieter für hochsichere Hard- und Softwarelösungen. Dem Nebenerwerb blieb ich treu."
-        image: assets/img/timeline/4.jpg
-        alt:
-        #align: right
+        image: assets/img/timeline/chimney.jpg
+        alt: Leiter in den Himmel
       - title: "Selbständigkeit"
         year: "September 2024"
         desc: "Nach mehr als zweihundert erfolgreich abgeschlossenen Aufträgen auf Fiverr mit einer Gesamtbewertung von **4,9** Sternen bin ich seit Mitte September 2024 nun vollständig selbständig und freue mich auf die weiteren Entwicklungen."
-        image: assets/img/timeline/4.jpg
-        alt:
-        #align: right
+        image: assets/img/timeline/homeoffice.jpg
+        alt: Home-Office
 
     end: "Werden Sie <br> Teil dieser <br> Geschichte!"
 
@@ -199,10 +196,12 @@ de: &DEFAULT_DE
   footer:
     legal: "Datenschutzerklärung und Impressum"
     social:
+      - url: assets/keys/BEED4DED5544A4C03E283DC74BCD0567C296D05D.gpg
+        icon: fas fa-fingerprint
       - url: https://www.fiverr.com/dleidert
         icon: fab fa-fonticons
-      - url: assets/keys/BEED4DED5544A4C03E283DC74BCD0567C296D05D.gpg
-        icon: fas fa-lock
+      #- url: https://qa.debian.org/developer.php?email=dleidert%40debian.org
+      #  icon: fab fa-debian
       - url: https://www.linkedin.com/in/daniel-leidert-8995952aa/
         icon: fab fa-brands fa-linkedin
       - url: https://www.xing.com/profile/Daniel_Leidert
