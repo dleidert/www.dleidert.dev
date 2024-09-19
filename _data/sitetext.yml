@@ -19,8 +19,8 @@ de: &DEFAULT_DE
 
     section: Leistungen
     list:
-      - title: "System-Administration"
-        desc: "Server aufsetzen und pflegen, Probleme lösen, Software installieren und konfigurieren, Updates einspielen, Upgrades und Migrationen durchführen, etc."
+      - title: "System-Administration und Wartung"
+        desc: "Server aufsetzen und pflegen, Monitoring, Störungsbeseitigung, Software und Services installieren und konfigurieren, Updates einspielen, Upgrades und Migrationen durchführen, etc."
         icon: fas fa-laptop
       - title: "Netzwerke"
         desc: "Netzwerke erstellen und konfigurieren, Netzwerkprobleme auswerten und lösen"
