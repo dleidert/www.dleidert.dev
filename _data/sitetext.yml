@@ -118,11 +118,11 @@ de: &DEFAULT_DE
       Alle anderen Kunden können Stundenpakete zu den folgenden Konditionen erwerben.
       Die Abrechnung erfolgt in 15-Minuten-Slots.  
       
-        2-Stunden Paket: **200 Euro** (100 Euro/Stunden exkl. Umsatzsteuer)  
-        5-Stunden Paket: **500 Euro** (100 Euro/Stunden exkl. Umsatzsteuer)  
-        10-Stunden Paket: **950 Euro** (95 Euro/Stunden exkl. Umsatzsteuer)  
-        20-Stunden Paket: **1900 Euro** (95 Euro/Stunden exkl. Umsatzsteuer)  
-        50-Stunden Paket: **4500 Euro** (90 Euro/Stunden exkl. Umsatzsteuer)  
+        2-Stunden Paket: **200 Euro** (100 Euro/Stunde exkl. Umsatzsteuer)  
+        5-Stunden Paket: **500 Euro** (100 Euro/Stunde exkl. Umsatzsteuer)  
+        10-Stunden Paket: **950 Euro** (95 Euro/Stunde exkl. Umsatzsteuer)  
+        20-Stunden Paket: **1900 Euro** (95 Euro/Stunde exkl. Umsatzsteuer)  
+        50-Stunden Paket: **4500 Euro** (90 Euro/Stunde exkl. Umsatzsteuer)  
 
       Backups kosten pauschal und unabhängig von der Anzahl der zu sichernden
       Server/Maschinen, der Sicherungshäufigkeit oder der Dauer der
@@ -174,7 +174,7 @@ de: &DEFAULT_DE
 
   contact:
     title: "Kontakt"
-    text: "Kontaktieren Sie uns."
+    text: "Sprechen Sie uns an."
     section: Kontakt
     name: "Name*"
     name-validation: "Geben Sie einen Namen ein."
