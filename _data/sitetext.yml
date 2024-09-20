@@ -174,7 +174,7 @@ de: &DEFAULT_DE
 
   contact:
     title: "Kontakt"
-    text: "Kontaktieren Sie uns."
+    text: "Sprechen Sie uns an."
     section: Kontakt
     name: "Name*"
     name-validation: "Geben Sie einen Namen ein."
