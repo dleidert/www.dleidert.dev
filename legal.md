@@ -168,6 +168,6 @@ ist die Löschung einzelner Datensätze aus dem Backup nicht vorgesehen.
 
 Diese Datenschutzerklärung wurde für Zweck der DSGVO
 (Datenschutz-Grundverordnung) selbständig erstellt. Irrtümer sind vorbehalten.
-Anmerkungen bitte an an im [Impressum](#impressum) genannten Betreiber.
+Anmerkungen bitte an den im [Impressum](#impressum) genannten Betreiber.
 
 Version: `2024-09-19`
