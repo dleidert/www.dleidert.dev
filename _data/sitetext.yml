@@ -113,23 +113,31 @@ de: &DEFAULT_DE
     text: "Preise für Dienstleistungen wie Support und Backup"
     section: Preise
     body: >
-      Stammkunden mit mind. 5 Stunden Support pro Monat werden zu **90 Euro pro Stunde** (exkl. Umsatzsteuer) abgerechnet.  
-      Gründern biete ich bei Bedarf einen **Rabatt** von **10 Prozent** an.  
-      Alle anderen Kunden können Stundenpakete zu den folgenden Konditionen erwerben.
-      Die Abrechnung erfolgt in 15-Minuten-Slots.  
-      
+
+      Stammkunden mit mind. 5 Stunden Support pro Monat werden zu **90 Euro pro
+      Stunde** (exkl. Umsatzsteuer) abgerechnet. Gründern biete ich bei Bedarf
+      einen **Rabatt** von **10 Prozent** an. Alle anderen Kunden können
+      Stundenpakete zu den folgenden Konditionen erwerben. Die Abrechnung
+      erfolgt in 15-Minuten-Slots.  
+
         2-Stunden Paket: **200 Euro** (100 Euro/Stunde exkl. Umsatzsteuer)  
         5-Stunden Paket: **500 Euro** (100 Euro/Stunde exkl. Umsatzsteuer)  
         10-Stunden Paket: **950 Euro** (95 Euro/Stunde exkl. Umsatzsteuer)  
         20-Stunden Paket: **1900 Euro** (95 Euro/Stunde exkl. Umsatzsteuer)  
         50-Stunden Paket: **4500 Euro** (90 Euro/Stunde exkl. Umsatzsteuer)  
 
-      Backups kosten pauschal und unabhängig von der Anzahl der zu sichernden
-      Server/Maschinen, der Sicherungshäufigkeit oder der Dauer der
-      Aufbewahrung **50&nbsp;Euro pro Monat** bei einer zu sichernden
-      Datenmenge bis zu 5&nbsp;TB. Der Preis erhöht sich um je 50&nbsp;Euro pro
-      Monat pro weitere 5&nbsp;TB. Die Sicherungen werden auf Wunsch
-      verschlüsselt aufbewahrt.
+      Die **monatlichen** Kosten für Backups ergeben sich pauschal und
+      unabhängig von der Anzahl der zu sichernden Server/Maschinen, der
+      Sicherungshäufigkeit oder der Dauer der Aufbewahrung. Sie sind nach
+      Gesamtmenge der zu sichernden Daten gestaffelt:
+
+        bis  5&nbsp;TB **50 Euro**  
+        bis 10&nbsp;TB **100 Euro**  
+        bis 15&nbsp;TB **150 Euro**  
+        bis 20&nbsp;TB **200 Euro**  
+        mehr als 20TB **mind. 250 Euro**  
+      
+      Die Sicherungen werden auf Wunsch **verschlüsselt** aufbewahrt.
 
   clients:
     section: Kunden
