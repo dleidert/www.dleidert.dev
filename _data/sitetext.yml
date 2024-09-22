@@ -173,12 +173,8 @@ de: &DEFAULT_DE
             icon: fab fa-brands fa-github
           - url: https://gitlab.com/dleidert
             icon: fab fa-brands fa-gitlab
-          #- url: https://salsa.debian.org/dleidert
-          #  icon: fab fa-brands fa-linux
-          - url: https://www.linkedin.com/in/daniel-leidert-8995952aa/
-            icon: fab fa-brands fa-linkedin
-          - url: https://www.xing.com/profile/Daniel_Leidert
-            icon: fab fa-brands fa-xing
+          - url: https://salsa.debian.org/dleidert
+            icon: fab fa-brands fa-linux
 
   contact:
     title: "Kontakt"
@@ -208,8 +204,8 @@ de: &DEFAULT_DE
         icon: fas fa-fingerprint
       - url: https://www.fiverr.com/dleidert
         icon: fab fa-fonticons
-      #- url: https://qa.debian.org/developer.php?email=dleidert%40debian.org
-      #  icon: fab fa-debian
+      - url: https://www.freelancermap.de/profil/freelancer-linux-und-softwareentwicklung
+        icon: fas fa-wrench
       - url: https://www.linkedin.com/in/daniel-leidert-8995952aa/
         icon: fab fa-brands fa-linkedin
       - url: https://www.xing.com/profile/Daniel_Leidert
