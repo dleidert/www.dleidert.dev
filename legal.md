@@ -23,10 +23,24 @@ Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
 
 DE340976095
 
+### Angaben zur Berufshaftpflichtversicherung
+
+Name und Sitz des Versicherers:  
+
+<span class="float-right">[![Exali IT-Haftpflicht von Daniel Leidert](/assets/img/exali.png "Exali IT-Haftpflicht von Daniel Leidert")](https://www.exali.de/siegel/Daniel_Leidert)</span>
+
+exali AG  
+Franz-Kobinger-Str. 9  
+86157 Augsburg  
+
+Geltungsraum der Versicherung:  
+
+Weltweit (eingeschränkt)  
+
 ### Verbraucherstreitbeilegung/Universalschlichtungsstelle
 
-Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
-Verbraucherschlichtungsstelle teilzunehmen.  
+Das Unternehmen verpflichtet sich nicht, an Streitbeilegungsverfahren vor einer
+Verbraucherschlichtungsstelle teilzunehmen.
 
 <div class="col-lg-12 text-center">
 	<br/><br/>
