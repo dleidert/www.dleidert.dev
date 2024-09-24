@@ -34,6 +34,12 @@ locale: "de"
 collections:
   portfolio:
 
+defaults:
+  - scope:
+      path: "assets/**/*.pdf"
+    values:
+      sitemap: false
+
 markdown: kramdown
 
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
@@ -43,6 +49,7 @@ markdown: kramdown
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude:
   - legal.md.2
