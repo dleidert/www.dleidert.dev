@@ -20,10 +20,10 @@ de: &DEFAULT_DE
     section: Leistungen
     list:
       - title: "System-Administration und Wartung"
-        desc: "Installation und Wartung von Linux-Servern, Monitoring, Störungsbeseitigung, Installation und Konfiguration von Services (SMTP, HTTP, DNS, VPN, ...), Patchmanagement, Updates, Upgrades und Migrationen, etc."
+        desc: "Installation und Wartung von Linux-Servern remote und vor Ort, Monitoring, Störungsbeseitigung, Installation und Konfiguration von Services (SMTP, HTTP, DNS, VPN, ...), Patchmanagement, Updates, Upgrades und Migrationen, etc."
         icon: fas fa-laptop
       - title: "Netzwerke"
-        desc: "Netzwerke erstellen und konfigurieren, Netzwerkprobleme auswerten und lösen"
+        desc: "Netzwerke konzipieren, erstellen und konfigurieren, Netzwerkprobleme auswerten und lösen, Beratung und Support"
         icon: fas fa-network-wired
       - title: "Backups"
         desc: "Backup-Strategien erstellen, Backups erstellen und hosten, Wiederherstellung aus Backups"
@@ -32,16 +32,16 @@ de: &DEFAULT_DE
         desc: "Systeme härten und Sicherheitskonzepte erstellen"
         icon: fas fa-lock
       - title: "DEB"
-        desc: "Software-Installationspakete für Debian/Ubuntu erstellen"
+        desc: "Software-Installationspakete für Debian/Ubuntu erstellen für Ihre Software erstellen, Pakete in Debian aktualisieren und Bugs patchen"
         icon: fas fa-box
       - title: "Images"
         desc: "Benutzerspezifische Installer und System-Images für Debian/Ubuntu-basierte Desktops, Server und VMs erstellen; auch für Raspbian, Armbian und andere Derivate"
         icon: fas fa-desktop
       - title: "DevOps"
-        desc: "Support rund um DevOps und CI/CD für Softwareprojekte"
+        desc: "Support rund um DevOps und CI/CD für Ihr Softwareprojekt"
         icon: fab fa-gitlab
       - title: "Virtualisierung"
-        desc: "Virtualisierung für z.B. QEMU/KVM (`.img`), Vitualbox (`.vdi`), Hyper-V (`.vhdx`), Vmware (`.vmdk`) und Containerisierung von Anwendungen mit Docker"
+        desc: "Virtualisierung für z.B. QEMU/KVM, Vitualbox, Hyper-V, Vmware, etc., Containerisierung von Anwendungen mit z.B. Docker, LXD, etc."
         icon: fas fa-layer-group
       - title: "Automatisierung"
         desc: "Automatisierung und Fernwartung mit Ansible"
@@ -110,7 +110,7 @@ de: &DEFAULT_DE
 
   about:
     title: "Preise"
-    text: "Preise für Dienstleistungen wie Support und Backup"
+    text: "Preise für die Dienstleistungen Support und Backup"
     section: Preise
     body: >
 
@@ -168,7 +168,7 @@ de: &DEFAULT_DE
     section: Team
     people:
       - name: "Daniel Leidert"
-        role: "Freelancer, Debian/Ubuntu-Spezialist, Teil des Debian LTS-Teams, Co-Autor des <q>Debian Administrator Handbook</q>"
+        role: "Freelancer, Debian/Ubuntu-Spezialist, Debian LTS-Team, Co-Autor des <q>Debian Administrator Handbook</q>"
         image: assets/img/team/me.jpg
         social:
           - url: https://www.fiverr.com/dleidert
