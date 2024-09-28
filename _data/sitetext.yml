@@ -4,7 +4,7 @@
 de: &DEFAULT_DE
   header:
     title: Support rund um Debian und Ubuntu, Systemadministration, Backups, Netzwerke, DevOps, CI/CD und mehr
-    text: Ihr Debian und Ubuntu Spezialist
+    text: Ihr Linux-Spezialist aus dem Münsterland
     button: Kontakt
     buttonlink: "#Kontakt"
 
