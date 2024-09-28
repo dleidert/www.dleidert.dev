@@ -47,7 +47,7 @@ de: &DEFAULT_DE
         desc: "Automatisierung und Fernwartung mit Ansible"
         icon: fa fa-cogs
       - title: "Consulting"
-        desc: "Beratung rund um alle genannten Themen und Softwareentwicklung"
+        desc: "Beratung rund um alle genannten Themen, den Einsatz von Open Source Software und Softwareentwicklung"
         icon: fas fa-phone
       - title: "Programmierung"
         desc: "Klassische Programmierung und Skripting"
