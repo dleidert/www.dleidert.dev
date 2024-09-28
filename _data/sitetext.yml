@@ -20,7 +20,7 @@ de: &DEFAULT_DE
     section: Leistungen
     list:
       - title: "System-Administration und Wartung"
-        desc: "Server aufsetzen und pflegen, Monitoring, Störungsbeseitigung, Software und Services installieren und konfigurieren, Updates einspielen, Upgrades und Migrationen durchführen, etc."
+        desc: "Installation und Wartung von Linux-Servern, Monitoring, Störungsbeseitigung, Installation und Konfiguration von Services (SMTP, HTTP, DNS, VPN, ...), Patchmanagement, Updates, Upgrades und Migrationen, etc."
         icon: fas fa-laptop
       - title: "Netzwerke"
         desc: "Netzwerke erstellen und konfigurieren, Netzwerkprobleme auswerten und lösen"
@@ -35,7 +35,7 @@ de: &DEFAULT_DE
         desc: "Software-Installationspakete für Debian/Ubuntu erstellen"
         icon: fas fa-box
       - title: "Images"
-        desc: "Benutzerspezifische Installer und System-Images für Debian/Ubuntu-basierte Desktops, Server und VMs erstellen, Raspbian, Armbian und Derivate"
+        desc: "Benutzerspezifische Installer und System-Images für Debian/Ubuntu-basierte Desktops, Server und VMs erstellen; auch für Raspbian, Armbian und andere Derivate"
         icon: fas fa-desktop
       - title: "DevOps"
         desc: "Support rund um DevOps und CI/CD für Softwareprojekte"
@@ -102,7 +102,7 @@ de: &DEFAULT_DE
         alt: Leiter in den Himmel
       - title: "Selbständigkeit"
         year: "September 2024"
-        desc: "Nach mehr als zweihundert erfolgreich abgeschlossenen Aufträgen auf Fiverr mit einer Gesamtbewertung von **4,9** Sternen bin ich seit Mitte September 2024 nun vollständig selbständig und freue mich auf die weiteren Entwicklungen."
+        desc: "Nach mehr als zweihundert erfolgreich abgeschlossenen Aufträgen auf Fiverr mit einer Gesamtbewertung von **4,9** Sternen und dem Aufbau eines treuen Kundenstammes bin ich seit Mitte September 2024 nun vollständig selbständig und freue mich auf die weiteren Entwicklungen."
         image: assets/img/timeline/homeoffice.jpg
         alt: Home-Office
 
@@ -116,9 +116,9 @@ de: &DEFAULT_DE
 
       Stammkunden mit mind. 5 Stunden Support pro Monat werden zu
       **95&nbsp;Euro pro Stunde** (exkl. Umsatzsteuer) abgerechnet.
-      **Gründern** biete ich einen **Rabatt** an. Alle anderen Kunden können
-      Stundenpakete zu den folgenden Konditionen erwerben. Die Abrechnung
-      erfolgt in 15-Minuten-Slots.  
+      **Gründern**, die ihr Produkt entwickeln möchten, biete ich einen
+      **Rabatt** an. Alle anderen Kunden können Stundenpakete zu den folgenden
+      Konditionen erwerben. Die Abrechnung erfolgt in 15-Minuten-Slots.  
 
         2-Stunden Paket: **210 Euro** (105 Euro/Stunde exkl. Umsatzsteuer)  
         5-Stunden Paket: **525 Euro** (105 Euro/Stunde exkl. Umsatzsteuer)  
@@ -132,8 +132,8 @@ de: &DEFAULT_DE
 
       Die **monatlichen** Kosten für Backups ergeben sich pauschal und
       unabhängig von der Anzahl der zu sichernden Server/Maschinen, der
-      Sicherungshäufigkeit oder der Dauer der Aufbewahrung. Sie sind nach
-      Gesamtmenge der zu sichernden Daten gestaffelt:
+      Sicherungshäufigkeit oder der Dauer der Aufbewahrung. Sie sind lediglich
+      nach der Gesamtmenge der zu sichernden Daten gestaffelt.
 
         bis  5&nbsp;TB **50 Euro**  
         bis 10&nbsp;TB **100 Euro**  
