@@ -1,0 +1,51 @@
+# vim: set ts=2 sw=2 ai si et:
+---
+
+variables:
+  DEBIAN_FRONTEND: noninteractive
+  CCACHE_DIR: $CI_PROJECT_DIR/.ccache
+  CCACHE_BASEDIR: $CI_PROJECT_DIR
+  GIT_SUBMODULE_STRATEGY: recursive
+  BUILD_DIR: './build'
+
+build:
+  stage: build
+  only:
+    - fa5
+  before_script:
+    - id
+    - bundle install --path vendor
+  script:
+    - bundle exec jekyll build -d ${BUILD_DIR}
+  after_script:
+    - echo bar
+  cache:
+    paths:
+      - vendor/ruby
+  artifacts:
+    paths:
+      - ${BUILD_DIR}
+
+
+htmlproofer:
+  stage: test
+  only:
+    - fa5
+  before_script:
+    - bundle install --path vendor
+  script:
+    - bundle exec htmlproofer ${BUILD_DIR} --check-external-hash
+                                           --check-sri
+                                           --ignore-status-codes 999
+                                           --ignore-urls '/fiverr.com/'
+  cache:
+    paths:
+      - tmp/.htmlproofer
+
+deploy:
+  stage: deploy
+  script:
+    - cp -r build/ /web/new
+    - mv /web/html /web/old
+    - mv /web/new  /web/html
+    - rm -rf /web/old
