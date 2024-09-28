@@ -168,7 +168,7 @@ de: &DEFAULT_DE
     section: Team
     people:
       - name: "Daniel Leidert"
-        role: "Freelancer, Debian/Ubuntu-Spezialist, Co-Autor des <q>Debian Administrator Handbook</q>"
+        role: "Freelancer, Debian/Ubuntu-Spezialist, Teil des Debian LTS-Teams, Co-Autor des <q>Debian Administrator Handbook</q>"
         image: assets/img/team/me.jpg
         social:
           - url: https://www.fiverr.com/dleidert
