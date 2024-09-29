@@ -8,10 +8,11 @@ variables:
   GIT_SUBMODULE_STRATEGY: recursive
   BUILD_DIR: './build'
 
+only:
+  - fa5
+
 build:
   stage: build
-  only:
-    - fa5
   before_script:
     - id
     - bundle install --path vendor
