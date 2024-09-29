@@ -29,8 +29,8 @@ build:
 
 htmlproofer:
   stage: test
-  only:
-    - fa5
+  needs:
+    - build
   before_script:
     - bundle install --path vendor
   script:
@@ -44,6 +44,8 @@ htmlproofer:
 
 deploy:
   stage: deploy
+  needs:
+    - build
   script:
     - cp -r build/ /web/new
     - mv /web/html /web/old
