@@ -8,11 +8,11 @@ variables:
   GIT_SUBMODULE_STRATEGY: recursive
   BUILD_DIR: './build'
 
-only:
-  - fa5
 
 build:
   stage: build
+  only:
+    - fa5
   before_script:
     - id
     - bundle install --path vendor
@@ -30,6 +30,8 @@ build:
 
 htmlproofer:
   stage: test
+  only:
+    - fa5
   needs:
     - build
   before_script:
@@ -43,8 +45,11 @@ htmlproofer:
     paths:
       - tmp/.htmlproofer
 
+
 deploy:
   stage: deploy
+  only:
+    - fa5
   needs:
     - build
   script:
