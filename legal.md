@@ -39,7 +39,7 @@ Weltweit (eingeschränkt)
 
 ### Verbraucherstreitbeilegung/Universalschlichtungsstelle
 
-Das Unternehmen verpflichtet sich nicht, an Streitbeilegungsverfahren vor einer
+Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
 Verbraucherschlichtungsstelle teilzunehmen.
 
 <div class="col-lg-12 text-center">
