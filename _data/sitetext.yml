@@ -20,7 +20,7 @@ de: &DEFAULT_DE
     section: Leistungen
     list:
       - title: "System-Administration und Wartung"
-        desc: "Installation und Wartung von Linux-Servern remote und vor Ort, Monitoring, Störungsbeseitigung, Installation und Konfiguration von Services (SMTP, HTTP, DNS, VPN, ...), Patchmanagement, Updates, Upgrades und Migrationen, etc."
+        desc: "Installation und Wartung von Linux-Servern Remote und vor Ort, Monitoring, Störungsbeseitigung, Installation und Konfiguration von Services (SSH, Mail, Web, DNS, VPN, ...), Patchmanagement, Updates, Upgrades und Migrationen, Hardware einbauen und austauschen, etc."
         icon: fas fa-laptop
       - title: "Netzwerke"
         desc: "Netzwerke konzipieren, erstellen und konfigurieren, Netzwerkprobleme auswerten und lösen, Beratung und Support"
@@ -32,10 +32,10 @@ de: &DEFAULT_DE
         desc: "Systeme härten und Sicherheitskonzepte erstellen"
         icon: fas fa-lock
       - title: "DEB"
-        desc: "Software-Installationspakete für Debian/Ubuntu erstellen für Ihre Software erstellen, Pakete in Debian aktualisieren und Bugs patchen"
+        desc: "Software-Installationspakete für Debian/Ubuntu Linux für Ihre Software erstellen, Pakete in Debian aktualisieren und Bugs patchen"
         icon: fas fa-box
       - title: "Images"
-        desc: "Benutzerspezifische Installer und System-Images für Debian/Ubuntu-basierte Desktops, Server und VMs erstellen; auch für Raspbian, Armbian und andere Derivate"
+        desc: "Benutzerspezifische Installer und System-Images für Debian/Ubuntu-basierte Desktops, Server, VMs und Mass-Deployments erstellen; auch für Raspbian, Armbian und andere Derivate"
         icon: fas fa-desktop
       - title: "DevOps"
         desc: "Support rund um DevOps und CI/CD für Ihr Softwareprojekt"
@@ -47,7 +47,7 @@ de: &DEFAULT_DE
         desc: "Automatisierung und Fernwartung mit Ansible"
         icon: fa fa-cogs
       - title: "Consulting"
-        desc: "Beratung rund um alle genannten Themen, den Einsatz von Open Source Software und Softwareentwicklung"
+        desc: "Beratung rund um alle genannten Themen, den Einsatz von Open Source Software und Softwareentwicklung im Allgemeinen"
         icon: fas fa-phone
       - title: "Programmierung"
         desc: "Klassische Programmierung und Skripting"
