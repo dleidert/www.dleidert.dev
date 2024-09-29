@@ -66,7 +66,7 @@ Kommunikation nach dem GPG/Mime-Standard. Bei Fragen helfen wir gerne dabei.
 Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der
 Website durch unsere IT- Systeme erfasst. Das sind vor allem technische Daten
 (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die
-Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.i
+Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.
 
 Ihre Daten werden nicht an Dritte weitergegeben. Wenn eine Weitergabe zur
 Auftragserfüllung dennoch notwendig ist, werden wir vorher Ihre Genehmigung
@@ -112,7 +112,7 @@ die Kontaktdaten.
 Externe Links haben wir bei der Erstellung unserer Internetseiten überprüft.
 Wir können jedoch keine Verantwortung für den dort dargestellten Inhalt oder
 zwischenzeitliche Änderungen übernehmen. Wenn Sie einem Link folgen, verlassen
-Sie unsere Internetpräsenz und damit den Geltungsbereich dieser
+Sie unsere Internetpräsenz und damit auch den Geltungsbereich dieser
 Datenschutzerklärung.
 
 ### Datenerfassung für Geschäftsbeziehungen
@@ -126,17 +126,18 @@ Gegenstelle dies unterstützt.
 Für eine Geschäftsbeziehung mit Ihnen erheben wir die folgenden
 personenbezogenen Daten und Kommunikationsdaten:
 
-  * Name der Firma
-  * Name der/des Ansprechpartners, Vertragspartners oder Rechnungsempfängers
-  * Anschrift der Firma
-  * Anschrift der/des Ansprechpartners, Vertragspartners oder Rechnungsempfängers
-  * E-Mail-Adresse
-  * Telefonnummer
-  * Umsatzsteuer-ID des Auftraggebers/Rechnungsempfängers
+  * Name,
+  * Firmenanschrift und/oder Rechnungsanschrift,
+  * E-Mail-Adresse,
+  * Telefonnummer und
+  * Umsatzsteuer-ID
+
+der Firma, der/des Auftraggebers, Ansprechpartners, Vertragspartners oder
+Rechnungsempfängers.
 
 Bei der Ausführung von Aufträgen werden in der Regel zudem die Zugangsdaten zum
 jeweiligen Auftragsgegenstand erhoben und bei langfristigen Aufträgen auch
-sicher gespeichert.
+sicher, das heißt verschlüsselt und offline, bei uns gespeichert.
 
 Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer
 genannt wurde, verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck
@@ -184,4 +185,4 @@ Diese Datenschutzerklärung wurde für Zweck der DSGVO
 (Datenschutz-Grundverordnung) selbständig erstellt. Irrtümer sind vorbehalten.
 Anmerkungen bitte an den im [Impressum](#impressum) genannten Betreiber.
 
-Version: `2024-09-19`
+Version: `2024-09-29`
