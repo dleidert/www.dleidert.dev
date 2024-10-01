@@ -86,23 +86,23 @@ de: &DEFAULT_DE
         alt: Laptop
       - title: "Debian Developer (DD)"
         year: "2012"
-        desc: "Zum Zeitpunkt meiner Ernennung zum Debian Developer war ich bereits offizieller Maintainer einer Reihe von Paketen und war insbesondere im Debian XML/SGML Team und bei GnuPG aktiv."
+        desc: "Zum Zeitpunkt meiner Ernennung zum Debian Developer war ich bereits offizieller Maintainer einer Reihe von Paketen und insbesondere im Debian XML/SGML Team und bei GnuPG aktiv."
         image: assets/img/timeline/package.jpg
         alt: Package
         #align: right
       - title: "Nebenerwerb"
         year: "März 2021"
-        desc: "Nach fast 20 Jahren Erfahrung mit Debian Linux bot ich erstmals meine Erfahrung und meine Dienste auf Fiverr an."
+        desc: "Nach fast 20 Jahren Erfahrung mit Debian Linux bot ich erstmals meine Erfahrung und meine Dienste auf Fiverr an und startete als IT-Freelancer nebenbei."
         image: assets/img/timeline/4.jpg
         alt: Mountains
       - title: "Wechsel in die IT im Hauptberuf"
         year: "März 2022"
-        desc: "Zu Beginn des Jahres wechselte ich auch hauptberuflich in die IT zu einem renommierten Anbieter für hochsichere Hard- und Softwarelösungen. Dem Nebenerwerb blieb ich treu."
+        desc: "Zu Beginn des Jahres wechselte ich auch hauptberuflich in die IT zu einem renommierten Anbieter für hochsichere Hard- und Softwarelösungen."
         image: assets/img/timeline/chimney.jpg
         alt: Leiter in den Himmel
       - title: "Selbständigkeit"
         year: "September 2024"
-        desc: "Nach mehr als zweihundert erfolgreich abgeschlossenen Aufträgen auf Fiverr mit einer Gesamtbewertung von **4,9** Sternen und dem Aufbau eines treuen Kundenstammes bin ich seit Mitte September 2024 nun vollständig selbständig und freue mich auf die weiteren Entwicklungen."
+        desc: "Zweihundert erfolgreich abgeschlossene Aufträge auf Fiverr als &quot;Top Rated Seller&quot; mit einer Gesamtbewertung von **4,9** Sternen. 200 zufriedene Kunden. Seit Mitte September 2024 bin ich nun selbständig und freue mich auf die weiteren Entwicklungen."
         image: assets/img/timeline/homeoffice.jpg
         alt: Home-Office
 
