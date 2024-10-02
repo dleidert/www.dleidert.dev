@@ -7,8 +7,12 @@ url: "https://dleidert.dev"
 baseurl: ""
 
 title: Daniel Leidert (Freelancer)
-tagline: Ihr Debian und Ubuntu Spezialist
-description: Support rund um Debian und Ubuntu und Raspbian und Derivate, Systemadministration, Backups, Härten, Netzwerke, DevOps, CI/CD und mehr
+tagline: Der Debian und Ubuntu Spezialist für Ihre Linux Root Server
+description: >
+  Daniel Leidert bietet Ihnen Support rund um Linux Server. Spezialist
+  für Debian und Ubuntu Linux, Raspbian und Derivate, Systemadministration,
+  Sicherungen, Backups, Härten, Netzwerke, DevOps, CI/CD und mehr
+
 author:
   name: Daniel Leidert
   url: https://dleidert.dev
