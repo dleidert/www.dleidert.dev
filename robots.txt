@@ -1,6 +1,9 @@
 User-agent: *
 Disallow: /assets/data/*.pdf
 
+User-agent:
+Disallow: /legal.html
+
 User-agent: GPTBot
 Disallow: /
 
