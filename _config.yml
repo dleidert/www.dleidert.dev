@@ -60,3 +60,4 @@ exclude:
   - README.md
   - LICENSE
   - assets/img/code.svg
+  - assets/img/code.png
