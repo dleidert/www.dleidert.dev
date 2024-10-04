@@ -48,9 +48,13 @@ htmlproofer:
 
 deploy:
   stage: deploy
+  image: debian:stable
   only:
     - fa5
   needs:
     - build
+  before_script:
+    - apt-get update -y
+    - apt-get install -y --install-recommends rsync
   script:
     - rsync -avP --no-owner --delete-after build/ /web/html/
